@@ -1,6 +1,6 @@
 # Odoo Eusko
 
-Module Odoo pour intégrer la monnaie locale **Eusko** au Pays Basque.
+Module Odoo pour intégrer la monnaie locale **Eusko** du Pays Basque.
 
 ## Fonctionnalités
 
