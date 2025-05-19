@@ -5,6 +5,7 @@
     'description': """
     Ce module Odoo permet une gestion de la monnaie locale Eusko :
     - Création automatique de la devise "Eusko" (EUS)
+    - Définir l’euro comme devise de la compagnie.
     """,
     'category': 'Accounting',
     'author': 'Nuxly : Kahina Alitouche',

@@ -5,6 +5,7 @@ Module Odoo pour intégrer la monnaie locale **Eusko** du Pays Basque.
 ## Fonctionnalités
 
 - Crée automatiquement la devise **Eusko (EUS)** 
+- Définir l’euro comme devise de la compagnie.
 - Compatible avec la comptabilité Odoo (`account`)
 
 ## Installation
