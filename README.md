@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-LGPL--3.0-blue.svg)
+![Odoo Version](https://img.shields.io/badge/Odoo-16%20%7C%2017%20%7C%2018-brightgreen)
+
+
 # Odoo Eusko
 
 Module Odoo pour intégrer la monnaie locale du Pays basque : **Eusko**.
