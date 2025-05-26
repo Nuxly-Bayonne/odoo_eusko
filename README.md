@@ -5,7 +5,7 @@
 Devise Eusko
 =============
 
-Ce module intégre la devise **Eusko (EUS)** dans Odoo pour les sociétés utilisant l'euro (€) comme devise principale.
+Ce module intégre la devise **Eusko (Eus)** dans Odoo pour les sociétés utilisant l'euro (€) comme devise principale.
 
 À propos de la monnaie Eusko
 ----------------------------
@@ -24,7 +24,7 @@ Depuis sa création, des centaines d'entreprises, commerces et associations l'ut
 Fonctionnalités
 ----------------
 - Création automatique de la devise Eusko (code `Eus`)
-- Taux de conversion initial : 1 EUR = 1 EUS
+- Taux de conversion initial : 1 EUR = 1 Eus
 - Vérifie que la devise de la société est l'euro avant installation
 - Désactive la devise lors de la désinstallation du module
 
@@ -65,7 +65,7 @@ Développement & Support
 
 ### Contributors 
 -  Chef de Projet : Thibaut Camberlin – tcamberlin@nuxly.com
--  Développeuse : Kahina Alitouche – kahina.alitouche22.6@gmail.com
+-  Développeuse : Kahina Alitouche – kalitouche@nuxly.com
 
 Bug Tracker
 -----------
@@ -80,6 +80,6 @@ en nous transmettant un rapport clair, reproductible et précis.
 Compatibilité
 -------------
 
-- Odoo 16
-- Odoo 17 
-- Odoo 18 
+- Odoo 16: branche 16.0
+- Odoo 17: branche 17.0
+- Odoo 18: branche 18.0

@@ -7,15 +7,16 @@ class CreateEuskoCurrency(models.AbstractModel):
     _description = "Création automatique de la devise Eusko"
 
     def init(self):
-        currency_env = self.env["res.currency"]
+        currency_env = self.env["res.currency"].with_context(active_test=False)
         rate_env = self.env["res.currency.rate"]
         company = self.env.company
-        existing = currency_env.search([("name", "=", "Eus")], limit=1)
 
-        if existing:
+        EuskoCurrency = currency_env.search([("name", "=", "Eus")], limit=1)
+
+        if EuskoCurrency:
             # Réactiver si existante
-            if not existing.active:
-                existing.write({"active": True})
+            if not EuskoCurrency.active:
+                EuskoCurrency.write({"active": True})
 
         else:
             # Ajouter la devise Eusko si inexistante
@@ -35,12 +36,11 @@ class CreateEuskoCurrency(models.AbstractModel):
 
         # Date personnalisée
         custom_date = fields.Date.to_date("2025-05-19")
-        currency = currency_env.search([("name", "=", "Eus")], limit=1)
 
         # Vérifie si le taux existe déjà pour cette date
         existing_rate = rate_env.search(
             [
-                ("currency_id", "=", currency.id),
+                ("currency_id", "=", EuskoCurrency.id),
                 ("name", "=", custom_date),
                 ("company_id", "=", company.id),
             ],
@@ -51,7 +51,7 @@ class CreateEuskoCurrency(models.AbstractModel):
         if not existing_rate:
             rate_env.create(
                 {
-                    "currency_id": currency.id,
+                    "currency_id": EuskoCurrency.id,
                     "rate": 1.0,
                     "name": custom_date,
                     "company_id": company.id,
