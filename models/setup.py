@@ -20,7 +20,7 @@ class CreateEuskoCurrency(models.AbstractModel):
 
         else:
             # Ajouter la devise Eusko si inexistante
-            currency_env.create(
+            EuskoCurrency = currency_env.create(
                 {
                     "name": "Eus",
                     "full_name": "Eusko",
