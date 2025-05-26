@@ -1,6 +1,6 @@
 {
     'name': 'Odoo Eusko',
-    'version': '1.0',
+    'version': '0.1',
     'summary': 'Intégration de la devise Eusko dans Odoo.',
     'description': """
     Ce module Odoo permet une gestion de la monnaie locale Eusko :
