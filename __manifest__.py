@@ -14,7 +14,9 @@
     - Ce module ne peut être installé que si la devise principale de la société est l'euro (€).
 
     Public cible :
-    - Sociétés basques utilisant ou acceptant les paiements en Eusko.
+    - Structures du Pays basque (PME, associations, etc.) adhérente à l'eusko et souhaitant suivre leurs transactions eusko, en activant l'application dans leur Odoo ou en changeant de logiciel pour passer sur Odoo.
+    - Structures du Pays basque pas encore adhérente à l'eusko et souhaitant déployer un logiciel de gestion prenant en charge l'eusko.
+ 
     
     """,
     'author': 'Nuxly Bayonne',
