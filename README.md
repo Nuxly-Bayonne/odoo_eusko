@@ -10,17 +10,24 @@ Ce module intégre la devise **Eusko (Eus)** dans Odoo pour les sociétés utili
 À propos de la monnaie Eusko
 ----------------------------
 
-L’Eusko est une monnaie locale complémentaire circulant au Pays Basque (France).  
+L’Eusko est la monnaie locale complémentaire circulant au Pays Basque Nord, sur le territoire de la Communauté d'agglomération Pays Basque.
+
 Elle vise à :
+   - Relocaliser l'économie et soutenir l'emploi local
+   - Accélérer la transition écologique et développer les circuits courts
+   - Faire vivre la langue basque
+   - Soutenir le milieu associatif
 
-- Renforcer l’économie locale
-- Favoriser les circuits courts
-- Promouvoir une consommation plus durable
+C'est la plus importante monnaie locale d'Europe, avec des milliers de particuliers et des centaines d'entreprises qui l'utilisent quotidiennement en complément de l'euro (€).
 
-Depuis sa création, des centaines d'entreprises, commerces et associations l'utilisent en complément de l'euro (€).
+Plus d'informations : https://euskalmoneta.org
 
-🔗 Plus d'informations : https://euskalmoneta.org
+À propos Nuxly Bayonne
+----------------------------
+Nuxly Bayonne accompagne les entreprises du Pays basque dans la simplification de la gestion de leur entreprise. Devis, commandes, factures .. nous divisons par 2 la charge administrative avec le déploiement du logiciel Odoo.
 
+Nos clients sont des PME, startups et associations qui veulent un partenaire de confiance pour piloter leur projet numérique, avec efficacité, proximité et bon sens.
+   
 Fonctionnalités
 ----------------
 - Création automatique de la devise Eusko (code `Eus`)
@@ -34,7 +41,9 @@ Conditions
 
 Public concerné
 ---------------
-- Entreprises basques qui utilisent ou acceptent l’Eusko.
+- Structures du Pays basque (PME, associations, etc.) adhérente à l'eusko et souhaitant suivre leurs transactions eusko, en activant l'application dans leur Odoo ou en changeant de logiciel pour passer sur Odoo.
+- Structures du Pays basque pas encore adhérente à l'eusko et souhaitant déployer un logiciel de gestion prenant en charge l'eusko.
+ 
 
 Installation
 ---------------
@@ -64,8 +73,8 @@ Développement & Support
 -  Contact : contact@nuxly.com
 
 ### Contributors 
--  Chef de Projet : Thibaut Camberlin – tcamberlin@nuxly.com
--  Développeuse : Kahina Alitouche – kalitouche@nuxly.com
+-  Thibaut Camberlin – tcamberlin@nuxly.com
+-  Kahina Alitouche – kalitouche@nuxly.com
 
 Bug Tracker
 -----------
@@ -75,11 +84,11 @@ En cas de souci, consultez la liste des tickets existants.
 Si vous êtes le premier à l’identifier, aidez-nous à le corriger 
 en nous transmettant un rapport clair, reproductible et précis.
 
-🔗 https://github.com/nuxly/odoo_eusko/issues
+https://github.com/Nuxly-Bayonne/odoo_eusko/issues
 
 Compatibilité
 -------------
 
-- Odoo 16: branche `16.0`
-- Odoo 17: branche `17.0`
-- Odoo 18: branche `18.0`
+- Odoo 16: branche 16.0
+- Odoo 17: branche 17.0
+- Odoo 18: branche 18.0
