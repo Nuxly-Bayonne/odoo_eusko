@@ -2,7 +2,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Devise Eusko</title>
   <style type="text/css">
     body { font-family: sans-serif; padding: 2em; line-height: 1.6; background: #fff; color: #333; }
@@ -14,119 +15,113 @@
   </style>
 </head>
 <body>
-<div class="document" id="devise-eusko">
-  <div style="margin-top:1em;">
-    <img src="https://img.shields.io/badge/license-LGPL--3.0-blue.svg" alt="License">
-    <img src="https://img.shields.io/badge/Odoo-16%20%7C%2017%20%7C%2018-brightgreen" alt="Odoo Version">
-  </div>
-  <h1 class="title" style="margin-top:1em;">Devise Eusko</h1>
+  <div class="document" id="devise-eusko">
 
-  <p>Ce module intègre la devise <strong>Eusko (Eus)</strong> dans Odoo pour les sociétés utilisant l’euro (€) comme devise principale.</p>
-
-  <h2>À propos de la monnaie Eusko</h2>
-  <div style="display:flex; align-items:center;">
-    <img src="Eusko_logo.png"  alt="Logo Eusko" style="margin: 0px 20px;height: fit-content;"/>
-    <div>
-      <p>L’Eusko est la monnaie locale complémentaire circulant au Pays Basque Nord, sur le territoire de la Communauté d'agglomération Pays Basque. Elle vise à :</p>
-      <ul>
-        <li>Relocaliser l'économie et soutenir l'emploi local</li>
-        <li>Accélérer la transition écologique et développer les circuits courts</li>
-        <li>Faire vivre la langue basque</li>
-        <li>Soutenir le milieu associatif</li>
-      </ul>
-      <p>
-        C'est la plus importante monnaie locale d'Europe, avec des milliers de particuliers et des centaines d'entreprises qui l'utilisent quotidiennement en complément de l'euro (€).</p>
-      <p>
-        <a href="https://euskalmoneta.org" target="_blank">
-          Plus d'informations
-        </a>
-      </p>
+    <div style="margin-top:1em;">
+      <img src="https://img.shields.io/badge/license-LGPL--3.0-blue.svg" alt="License">
+      <img src="https://img.shields.io/badge/Odoo-16%20%7C%2017%20%7C%2018-brightgreen" alt="Odoo Version">
     </div>
-  </div>
 
-  <h2>A propos de Nuxly</h2>
-  <div style="display:flex; align-items:center;">
-    <img src="icon.png"  alt="Logo Nuxly" style="margin: 0px 20px; "/>
-    <div style="margin:auto;">
-      <p>Nuxly Bayonne accompagne les entreprises du Pays basque dans la simplification de la gestion de leur entreprise. Devis, commandes, factures .. nous divisons par 2 la charge administrative avec le déploiement du logiciel Odoo.</p>
-      <p>Nos clients sont des PME, startups et associations qui veulent un partenaire de confiance pour piloter leur projet numérique, avec efficacité, proximité et bon sens.</p>
+    <h1 class="title" style="margin-top:1em;">Devise Eusko</h1>
+    <p>Ce module intègre la devise <strong>Eusko (Eus)</strong> dans Odoo pour les sociétés utilisant l’euro (€) comme devise principale.</p>
+
+    <h2>À propos de la monnaie Eusko</h2>
+    <div style="display:flex; align-items:center;">
+      <img src="Eusko_logo.png"  alt="Logo Eusko" style="margin: 0px 20px;height: fit-content;"/>
+      <div>
+        <p>L’Eusko est la monnaie locale complémentaire circulant au Pays Basque Nord, sur le territoire de la Communauté d'agglomération Pays Basque. Elle vise à :</p>
+        <ul>
+          <li>Relocaliser l'économie et soutenir l'emploi local</li>
+          <li>Accélérer la transition écologique et développer les circuits courts</li>
+          <li>Faire vivre la langue basque</li>
+          <li>Soutenir le milieu associatif</li>
+        </ul>
+        <p>C'est la plus importante monnaie locale d'Europe, avec des milliers de particuliers et des centaines d'entreprises qui l'utilisent quotidiennement en complément de l'euro (€).</p>
+         <a href="https://euskalmoneta.org" target="_blank">
+            Plus d'informations
+         </a>
+      </div>
     </div>
-  </div>
 
-  <h2>Fonctionnalités</h2>
-  <ul>
-    <li>Création automatique de la devise Eusko (code <code>Eus</code>)</li>
-    <li>Taux de conversion initial : 1 EUR = 1 Eus</li>
-    <li>Gestion des paiements clients et fournisseurs en Eusko.</li>
-    <li>Vérifie que la devise de la société est l'euro avant installation</li>
-    <li>Désactive la devise lors de la désinstallation du module</li>
-    <li>Compatible avec la comptabilité Odoo (account)</li>
-  </ul>
+    <h2>A propos de Nuxly</h2>
+    <div style="display:flex; align-items:center;">
+      <img src="icon.png"  alt="Logo Nuxly" style="margin: 0px 20px; "/>
+      <div style="margin:auto;">
+        <p>Nuxly Bayonne accompagne les entreprises du Pays basque dans la simplification de la gestion de leur entreprise. Devis, commandes, factures .. nous divisons par 2 la charge administrative avec le déploiement du logiciel Odoo.</p>
+        <p>Nos clients sont des PME, startups et associations qui veulent un partenaire de confiance pour piloter leur projet numérique, avec efficacité, proximité et bon sens.</p>
+      </div>
+    </div>
 
-  <h2>Conditions</h2>
-  <p>Ce module <strong>ne peut être installé que</strong> si la devise principale de la société est l’euro (€).</p>
+    <h2>Fonctionnalités</h2>
+    <ul>
+      <li>Création automatique de la devise Eusko (code <code>Eus</code>)</li>
+      <li>Taux de conversion initial : 1 EUR = 1 Eus</li>
+      <li>Gestion des paiements clients et fournisseurs en Eusko.</li>
+      <li>Vérifie que la devise de la société est l'euro avant installation</li>
+      <li>Désactive la devise lors de la désinstallation du module</li>
+      <li>Compatible avec la comptabilité Odoo (account)</li>
+    </ul>
 
-  <h2>Public concerné</h2>
-  <ul>
-    <li>Structures du Pays basque (PME, associations, etc.) adhérente à l'eusko et souhaitant suivre leurs transactions eusko, en activant l'application dans leur Odoo ou en changeant de logiciel pour passer sur Odoo.</li>
-    <li>Structures du Pays basque pas encore adhérente à l'eusko et souhaitant déployer un logiciel de gestion prenant en charge l'eusko.</li>
-  </ul>
+    <h2>Conditions</h2>
+    <p>Ce module <strong>ne peut être installé que</strong> si la devise principale de la société est l’euro (€).</p>
 
-      <h2>Installation</h2>
-  <ul>
-    <li>Copier ce module dans votre dossier `addons`</li>
-    <li>Mettre à jour la liste des modules</li>
-    <li>Installer le module "Odoo Eusko"</li>
-  </ul>
+    <h2>Public concerné</h2>
+    <ul>
+      <li>Structures du Pays basque (PME, associations, etc.) adhérente à l'eusko et souhaitant suivre leurs transactions eusko, en activant l'application dans leur Odoo ou en changeant de logiciel pour passer sur Odoo.</li>
+      <li>Structures du Pays basque pas encore adhérente à l'eusko et souhaitant déployer un logiciel de gestion prenant en charge l'eusko.</li>
+    </ul>
 
-  <h2>Utilisation</h2>
+    <h2>Installation</h2>
+    <ul>
+      <li>Copier ce module dans votre dossier `addons`</li>
+      <li>Mettre à jour la liste des modules</li>
+      <li>Installer le module "Odoo Eusko"</li>
+    </ul>
+
+    <h2>Utilisation</h2>
     <ul>
       <li>Une fois le module activé, vous pouvez enregistrer vos paiements en Eusko.</li>
     </ul>
 
-  <h2>Roadmap</h2>
+    <h2>Roadmap</h2>
     <ul>
       <li>Gestion des rapprochements bancaires</li>
       <li>Création des fichiers de prélèvements</li>
     </ul>
 
-  <h2>Développement &amp; Support</h2>
-  <h3>Auteurs</h3>
-  <ul>
-    <li>Développé par : <strong>Nuxly Bayonne</strong></li>
-    <li>Site web :
-      <a href="https://www.nuxly.com/integrateur-odoo-bayonne/" target="_blank">
+    <h2>Développement &amp; Support</h2>
+    <h3>Auteurs</h3>
+    <ul>
+      <li>Développé par : <strong>Nuxly Bayonne</strong></li>
+      <li>Site web :
+        <a href="https://www.nuxly.com/integrateur-odoo-bayonne/" target="_blank">
         nuxly.com
-      </a>
-    </li>
-    <li>Contact : <a href="mailto:contact@nuxly.com">contact@nuxly.com</a></li>
-  </ul>
+        </a>
+      </li>
+      <li>Contact : <a href="mailto:contact@nuxly.com">contact@nuxly.com</a></li>
+    </ul>
+    <h3>Contributeurs</h3>
+    <ul>
+      <li>Thibaut Camberlin – <a href="mailto:tcamberlin@nuxly.com">tcamberlin@nuxly.com</a></li>
+      <li>Kahina Alitouche – <a href="mailto:kalitouche@nuxly.com">kalitouche@nuxly.com</a></li>
+    </ul>
 
-  <h3>Contributeurs</h3>
-  <ul>
-    <li>Thibaut Camberlin – <a href="mailto:tcamberlin@nuxly.com">tcamberlin@nuxly.com</a></li>
-    <li>Kahina Alitouche – <a href="mailto:kalitouche@nuxly.com">kalitouche@nuxly.com</a></li>
-  </ul>
-
-  <h2>Bug Tracker</h2>
-
-  <p>Les bugs sont suivis sur GitHub Issues. <br/>
-  En cas de souci, consultez la liste des tickets existants.  <br/>
-  Si vous êtes le premier à l’identifier, aidez-nous à le corriger
-  en nous transmettant un rapport clair, reproductible et précis. <br/>
-  </p>
-  <p>
+    <h2>Bug Tracker</h2>
+    <p>Les bugs sont suivis sur GitHub Issues. <br/>
+      En cas de souci, consultez la liste des tickets existants.  <br/>
+      Si vous êtes le premier à l’identifier, aidez-nous à le corriger
+      en nous transmettant un rapport clair, reproductible et précis. <br/>
+    </p>
     <a href="https://github.com/Nuxly-Bayonne/odoo_eusko/issues" target="_blank">
-     https://github.com/Nuxly-Bayonne/odoo_eusko/issues</a>
-  </p>
+     https://github.com/Nuxly-Bayonne/odoo_eusko/issues
+    </a>
 
-  <h2>Compatibilité</h2>
-  <ul>
-    <li>Odoo 16</li>
-    <li>Odoo 17</li>
-    <li>Odoo 18</li>
-  </ul>
-
-</div>
+    <h2>Compatibilité</h2>
+    <ul>
+      <li>Odoo 16</li>
+      <li>Odoo 17</li>
+      <li>Odoo 18</li>
+    </ul>
+  </div>
 </body>
 </html>
